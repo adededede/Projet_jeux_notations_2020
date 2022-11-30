@@ -1,0 +1,399 @@
+\hypertarget{class_projet___t3_1_1uc_perso}{}\doxysection{Référence de la classe Projet\+\_\+\+T3.\+uc\+Perso}
+\label{class_projet___t3_1_1uc_perso}\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+
+
+classe du user\+Control Personnage, permet de changer les caractéristiques de l\textquotesingle{}élève  
+
+
+Graphe d\textquotesingle{}héritage de Projet\+\_\+\+T3.\+uc\+Perso\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_projet___t3_1_1uc_perso}
+\end{center}
+\end{figure}
+\doxysubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_projet___t3_1_1uc_perso_a010d264e8a523437957d9ffddf96dc3f}{uc\+Perso}} (int diff)
+\item 
+\mbox{\hyperlink{class_projet___t3_1_1uc_perso_a010d264e8a523437957d9ffddf96dc3f}{uc\+Perso}} (int diff)
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonctions membres protégées}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a531fe477198c0058ec537b158d177322}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Nettoyage des ressources utilisées. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_aea9691259d92d39499395cde809796f6}{vider\+Cours}} ()
+\begin{DoxyCompactList}\small\item\em permet de vider la table des cours \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a4290fc4e59a0c07e778f8381a7ae77d3}{maj\+Competence}} (int val, int id\+Prof)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_aa265dcf143c23dbe19b551dd37323fa9}{btn\+\_\+continue\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a1879ae91f7382d939e5904d55ed8a0b1}{chargement\+Ds\+Local}} ()
+\begin{DoxyCompactList}\small\item\em charge la base de donnée en local \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_aa1504bf099b18d07fd8bbbee6ca096e7}{Tb\+Math\+\_\+\+Value\+Changed}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_ad29215d7ae09290d4eb21f5f4f265558}{Btn\+\_\+quitter\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a63644a979e6ba7ae68e475095ae2bcde}{vider\+Cours}} ()
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a4290fc4e59a0c07e778f8381a7ae77d3}{maj\+Competence}} (int val, int id\+Prof)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_aa265dcf143c23dbe19b551dd37323fa9}{btn\+\_\+continue\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_ad2abda946361efb1758b9aad98ed92a3}{chargement\+Ds\+Local}} ()
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_aa1504bf099b18d07fd8bbbee6ca096e7}{Tb\+Math\+\_\+\+Value\+Changed}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_ad29215d7ae09290d4eb21f5f4f265558}{Btn\+\_\+quitter\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_perso_ab14e88488cad174d13c5309aa8998a88}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Méthode requise pour la prise en charge du concepteur -\/ ne modifiez pas le contenu de cette méthode avec l\textquotesingle{}éditeur de code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+Ole\+Db\+Connection \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a1a80d93ea00dfe1f8a677eb85301bd33}{connex}} = new Ole\+Db\+Connection()
+\begin{DoxyCompactList}\small\item\em connexion pour la base de donnée \end{DoxyCompactList}\item 
+Data\+Set \mbox{\hyperlink{class_projet___t3_1_1uc_perso_aa60c5b55f1d1622e8be18eb6f313e4e7}{ds\+Local}} = new Data\+Set()
+\begin{DoxyCompactList}\small\item\em data\+Set où on copie la base de données pour travailler en déconnécté \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a3529f34659f44feb0b831102b8bbc889}{difficulte}}
+\begin{DoxyCompactList}\small\item\em difficulté choisi par le joueur \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a62e57514a1e9dd92b32d451e5ea4fb0c}{point\+De\+Base}}
+\begin{DoxyCompactList}\small\item\em nombre de points à attribuer en fonction de la difficulté \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_perso_ab958547833cdec2601d6a54f77c656c4}{valeur\+Actuelle\+Math}}
+\begin{DoxyCompactList}\small\item\em valeur de la Track\+Bar des maths \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_perso_af6968cbbcd995d3c9340b6e72ddb654a}{valeur\+Actuelle\+Francais}}
+\begin{DoxyCompactList}\small\item\em valeur de la Track\+Bar de français \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a505627c37f83e0027c14a6091f632ab6}{valeur\+Actuelle\+Histo}}
+\begin{DoxyCompactList}\small\item\em valeur de la Track\+Bar d\textquotesingle{}histoire \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_projet___t3_1_1uc_perso_ab5b0770d866df562b1b21dedf170bd13}{debut}} =true
+\begin{DoxyCompactList}\small\item\em true si les valeurs initiales ne sont pas mise, false sinon \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a43e9bfe47c704f27120a288a18ad0429}{chang}} = false
+\item 
+System.\+Component\+Model.\+I\+Container \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a0d43f31e88b22e9b86774df3d6b85cf2}{components}} = null
+\begin{DoxyCompactList}\small\item\em Variable nécessaire au concepteur. \end{DoxyCompactList}\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_perso_acea89b204bd8c71b70b268e6831d7110}{pcb\+\_\+perso}}
+\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_perso_abbc0a14bd16d0b765f685d7c5267a572}{pcb\+\_\+nom\+Du\+Jeu}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a6528b50cd369a646f9f80f0de5ffcf2e}{lbl\+Math}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_perso_aa4347eef4e4f12dcfe51094f71fe0f50}{lbl\+Francais}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_perso_ac9c40399dca05fa1a7bf9c1bad8164cf}{lbl\+Histo}}
+\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_perso_acfb9fc7222ebe3727e65225da3502138}{btn\+\_\+continue}}
+\item 
+System.\+Windows.\+Forms.\+Track\+Bar \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a6ad19e623350da4c9f4ba9d42fa39fc8}{tb\+Math}}
+\item 
+System.\+Windows.\+Forms.\+Track\+Bar \mbox{\hyperlink{class_projet___t3_1_1uc_perso_ae8da4aa27ba36423d67c570e06f6832f}{tb\+Francais}}
+\item 
+System.\+Windows.\+Forms.\+Track\+Bar \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a885047373b739c26446866a74b56b16e}{tb\+Histo}}
+\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_perso_a8b107920d0dca76f3d4f0910c7d52850}{btn\+\_\+quitter}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+classe du user\+Control Personnage, permet de changer les caractéristiques de l\textquotesingle{}élève 
+
+\doxysubsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a010d264e8a523437957d9ffddf96dc3f}\label{class_projet___t3_1_1uc_perso_a010d264e8a523437957d9ffddf96dc3f}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!ucPerso@{ucPerso}}
+\index{ucPerso@{ucPerso}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{ucPerso()}{ucPerso()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Projet\+\_\+\+T3.\+uc\+Perso.\+uc\+Perso (\begin{DoxyParamCaption}\item[{int}]{diff }\end{DoxyParamCaption})}
+
+Constructeur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\texttt{ in}}  & {\em diff} & \+: difficulté choisie par le joueur \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a010d264e8a523437957d9ffddf96dc3f}\label{class_projet___t3_1_1uc_perso_a010d264e8a523437957d9ffddf96dc3f}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!ucPerso@{ucPerso}}
+\index{ucPerso@{ucPerso}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{ucPerso()}{ucPerso()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Projet\+\_\+\+T3.\+uc\+Perso.\+uc\+Perso (\begin{DoxyParamCaption}\item[{int}]{diff }\end{DoxyParamCaption})}
+
+Constructeur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\texttt{ in}}  & {\em diff} & \+: difficulté choisie par le joueur \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_aa265dcf143c23dbe19b551dd37323fa9}\label{class_projet___t3_1_1uc_perso_aa265dcf143c23dbe19b551dd37323fa9}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!btn\_continue\_Click@{btn\_continue\_Click}}
+\index{btn\_continue\_Click@{btn\_continue\_Click}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{btn\_continue\_Click()}{btn\_continue\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+btn\+\_\+continue\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_aa265dcf143c23dbe19b551dd37323fa9}\label{class_projet___t3_1_1uc_perso_aa265dcf143c23dbe19b551dd37323fa9}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!btn\_continue\_Click@{btn\_continue\_Click}}
+\index{btn\_continue\_Click@{btn\_continue\_Click}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{btn\_continue\_Click()}{btn\_continue\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+btn\+\_\+continue\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_ad29215d7ae09290d4eb21f5f4f265558}\label{class_projet___t3_1_1uc_perso_ad29215d7ae09290d4eb21f5f4f265558}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!Btn\_quitter\_Click@{Btn\_quitter\_Click}}
+\index{Btn\_quitter\_Click@{Btn\_quitter\_Click}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{Btn\_quitter\_Click()}{Btn\_quitter\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+Btn\+\_\+quitter\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_ad29215d7ae09290d4eb21f5f4f265558}\label{class_projet___t3_1_1uc_perso_ad29215d7ae09290d4eb21f5f4f265558}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!Btn\_quitter\_Click@{Btn\_quitter\_Click}}
+\index{Btn\_quitter\_Click@{Btn\_quitter\_Click}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{Btn\_quitter\_Click()}{Btn\_quitter\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+Btn\+\_\+quitter\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a1879ae91f7382d939e5904d55ed8a0b1}\label{class_projet___t3_1_1uc_perso_a1879ae91f7382d939e5904d55ed8a0b1}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!chargementDsLocal@{chargementDsLocal}}
+\index{chargementDsLocal@{chargementDsLocal}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{chargementDsLocal()}{chargementDsLocal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+chargement\+Ds\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+charge la base de donnée en local 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_ad2abda946361efb1758b9aad98ed92a3}\label{class_projet___t3_1_1uc_perso_ad2abda946361efb1758b9aad98ed92a3}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!chargementDsLocal@{chargementDsLocal}}
+\index{chargementDsLocal@{chargementDsLocal}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{chargementDsLocal()}{chargementDsLocal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+chargement\+Ds\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a531fe477198c0058ec537b158d177322}\label{class_projet___t3_1_1uc_perso_a531fe477198c0058ec537b158d177322}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily override void Projet\+\_\+\+T3.\+uc\+Perso.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Nettoyage des ressources utilisées. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em disposing} & true si les ressources managées doivent être supprimées~; sinon, false.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_ab14e88488cad174d13c5309aa8998a88}\label{class_projet___t3_1_1uc_perso_ab14e88488cad174d13c5309aa8998a88}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Méthode requise pour la prise en charge du concepteur -\/ ne modifiez pas le contenu de cette méthode avec l\textquotesingle{}éditeur de code. 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a4290fc4e59a0c07e778f8381a7ae77d3}\label{class_projet___t3_1_1uc_perso_a4290fc4e59a0c07e778f8381a7ae77d3}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!majCompetence@{majCompetence}}
+\index{majCompetence@{majCompetence}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{majCompetence()}{majCompetence()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+maj\+Competence (\begin{DoxyParamCaption}\item[{int}]{val,  }\item[{int}]{id\+Prof }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a4290fc4e59a0c07e778f8381a7ae77d3}\label{class_projet___t3_1_1uc_perso_a4290fc4e59a0c07e778f8381a7ae77d3}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!majCompetence@{majCompetence}}
+\index{majCompetence@{majCompetence}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{majCompetence()}{majCompetence()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+maj\+Competence (\begin{DoxyParamCaption}\item[{int}]{val,  }\item[{int}]{id\+Prof }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_aa1504bf099b18d07fd8bbbee6ca096e7}\label{class_projet___t3_1_1uc_perso_aa1504bf099b18d07fd8bbbee6ca096e7}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!TbMath\_ValueChanged@{TbMath\_ValueChanged}}
+\index{TbMath\_ValueChanged@{TbMath\_ValueChanged}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{TbMath\_ValueChanged()}{TbMath\_ValueChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+Tb\+Math\+\_\+\+Value\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_aa1504bf099b18d07fd8bbbee6ca096e7}\label{class_projet___t3_1_1uc_perso_aa1504bf099b18d07fd8bbbee6ca096e7}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!TbMath\_ValueChanged@{TbMath\_ValueChanged}}
+\index{TbMath\_ValueChanged@{TbMath\_ValueChanged}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{TbMath\_ValueChanged()}{TbMath\_ValueChanged()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+Tb\+Math\+\_\+\+Value\+Changed (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_aea9691259d92d39499395cde809796f6}\label{class_projet___t3_1_1uc_perso_aea9691259d92d39499395cde809796f6}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!viderCours@{viderCours}}
+\index{viderCours@{viderCours}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{viderCours()}{viderCours()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+vider\+Cours (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+permet de vider la table des cours 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a63644a979e6ba7ae68e475095ae2bcde}\label{class_projet___t3_1_1uc_perso_a63644a979e6ba7ae68e475095ae2bcde}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!viderCours@{viderCours}}
+\index{viderCours@{viderCours}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{viderCours()}{viderCours()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Perso.\+vider\+Cours (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Documentation des données membres}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_acfb9fc7222ebe3727e65225da3502138}\label{class_projet___t3_1_1uc_perso_acfb9fc7222ebe3727e65225da3502138}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!btn\_continue@{btn\_continue}}
+\index{btn\_continue@{btn\_continue}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{btn\_continue}{btn\_continue}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Perso.\+btn\+\_\+continue\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a8b107920d0dca76f3d4f0910c7d52850}\label{class_projet___t3_1_1uc_perso_a8b107920d0dca76f3d4f0910c7d52850}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!btn\_quitter@{btn\_quitter}}
+\index{btn\_quitter@{btn\_quitter}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{btn\_quitter}{btn\_quitter}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Perso.\+btn\+\_\+quitter\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a43e9bfe47c704f27120a288a18ad0429}\label{class_projet___t3_1_1uc_perso_a43e9bfe47c704f27120a288a18ad0429}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!chang@{chang}}
+\index{chang@{chang}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{chang}{chang}}
+{\footnotesize\ttfamily bool Projet\+\_\+\+T3.\+uc\+Perso.\+chang = false\hspace{0.3cm}{\ttfamily [private]}}
+
+true si on a pas enregistré le changement de valeur du joueur, false pour qu\textquotesingle{}on modifie les deux autres valeurs sans passer dans les if \mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a0d43f31e88b22e9b86774df3d6b85cf2}\label{class_projet___t3_1_1uc_perso_a0d43f31e88b22e9b86774df3d6b85cf2}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!components@{components}}
+\index{components@{components}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily System.\+Component\+Model.\+I\+Container Projet\+\_\+\+T3.\+uc\+Perso.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable nécessaire au concepteur. 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a1a80d93ea00dfe1f8a677eb85301bd33}\label{class_projet___t3_1_1uc_perso_a1a80d93ea00dfe1f8a677eb85301bd33}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!connex@{connex}}
+\index{connex@{connex}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{connex}{connex}}
+{\footnotesize\ttfamily Ole\+Db\+Connection Projet\+\_\+\+T3.\+uc\+Perso.\+connex = new Ole\+Db\+Connection()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+connexion pour la base de donnée 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_ab5b0770d866df562b1b21dedf170bd13}\label{class_projet___t3_1_1uc_perso_ab5b0770d866df562b1b21dedf170bd13}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!debut@{debut}}
+\index{debut@{debut}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{debut}{debut}}
+{\footnotesize\ttfamily bool Projet\+\_\+\+T3.\+uc\+Perso.\+debut =true\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+true si les valeurs initiales ne sont pas mise, false sinon 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a3529f34659f44feb0b831102b8bbc889}\label{class_projet___t3_1_1uc_perso_a3529f34659f44feb0b831102b8bbc889}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!difficulte@{difficulte}}
+\index{difficulte@{difficulte}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{difficulte}{difficulte}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Perso.\+difficulte\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+difficulté choisi par le joueur 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_aa60c5b55f1d1622e8be18eb6f313e4e7}\label{class_projet___t3_1_1uc_perso_aa60c5b55f1d1622e8be18eb6f313e4e7}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!dsLocal@{dsLocal}}
+\index{dsLocal@{dsLocal}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{dsLocal}{dsLocal}}
+{\footnotesize\ttfamily Data\+Set Projet\+\_\+\+T3.\+uc\+Perso.\+ds\+Local = new Data\+Set()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+data\+Set où on copie la base de données pour travailler en déconnécté 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_aa4347eef4e4f12dcfe51094f71fe0f50}\label{class_projet___t3_1_1uc_perso_aa4347eef4e4f12dcfe51094f71fe0f50}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!lblFrancais@{lblFrancais}}
+\index{lblFrancais@{lblFrancais}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{lblFrancais}{lblFrancais}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Perso.\+lbl\+Francais\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_ac9c40399dca05fa1a7bf9c1bad8164cf}\label{class_projet___t3_1_1uc_perso_ac9c40399dca05fa1a7bf9c1bad8164cf}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!lblHisto@{lblHisto}}
+\index{lblHisto@{lblHisto}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{lblHisto}{lblHisto}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Perso.\+lbl\+Histo\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a6528b50cd369a646f9f80f0de5ffcf2e}\label{class_projet___t3_1_1uc_perso_a6528b50cd369a646f9f80f0de5ffcf2e}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!lblMath@{lblMath}}
+\index{lblMath@{lblMath}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{lblMath}{lblMath}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Perso.\+lbl\+Math\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_abbc0a14bd16d0b765f685d7c5267a572}\label{class_projet___t3_1_1uc_perso_abbc0a14bd16d0b765f685d7c5267a572}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!pcb\_nomDuJeu@{pcb\_nomDuJeu}}
+\index{pcb\_nomDuJeu@{pcb\_nomDuJeu}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{pcb\_nomDuJeu}{pcb\_nomDuJeu}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Perso.\+pcb\+\_\+nom\+Du\+Jeu\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_acea89b204bd8c71b70b268e6831d7110}\label{class_projet___t3_1_1uc_perso_acea89b204bd8c71b70b268e6831d7110}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!pcb\_perso@{pcb\_perso}}
+\index{pcb\_perso@{pcb\_perso}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{pcb\_perso}{pcb\_perso}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Perso.\+pcb\+\_\+perso\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a62e57514a1e9dd92b32d451e5ea4fb0c}\label{class_projet___t3_1_1uc_perso_a62e57514a1e9dd92b32d451e5ea4fb0c}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!pointDeBase@{pointDeBase}}
+\index{pointDeBase@{pointDeBase}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{pointDeBase}{pointDeBase}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Perso.\+point\+De\+Base\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+nombre de points à attribuer en fonction de la difficulté 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_ae8da4aa27ba36423d67c570e06f6832f}\label{class_projet___t3_1_1uc_perso_ae8da4aa27ba36423d67c570e06f6832f}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!tbFrancais@{tbFrancais}}
+\index{tbFrancais@{tbFrancais}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{tbFrancais}{tbFrancais}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Track\+Bar Projet\+\_\+\+T3.\+uc\+Perso.\+tb\+Francais\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a885047373b739c26446866a74b56b16e}\label{class_projet___t3_1_1uc_perso_a885047373b739c26446866a74b56b16e}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!tbHisto@{tbHisto}}
+\index{tbHisto@{tbHisto}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{tbHisto}{tbHisto}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Track\+Bar Projet\+\_\+\+T3.\+uc\+Perso.\+tb\+Histo\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a6ad19e623350da4c9f4ba9d42fa39fc8}\label{class_projet___t3_1_1uc_perso_a6ad19e623350da4c9f4ba9d42fa39fc8}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!tbMath@{tbMath}}
+\index{tbMath@{tbMath}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{tbMath}{tbMath}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Track\+Bar Projet\+\_\+\+T3.\+uc\+Perso.\+tb\+Math\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_af6968cbbcd995d3c9340b6e72ddb654a}\label{class_projet___t3_1_1uc_perso_af6968cbbcd995d3c9340b6e72ddb654a}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!valeurActuelleFrancais@{valeurActuelleFrancais}}
+\index{valeurActuelleFrancais@{valeurActuelleFrancais}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{valeurActuelleFrancais}{valeurActuelleFrancais}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Perso.\+valeur\+Actuelle\+Francais\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+valeur de la Track\+Bar de français 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_a505627c37f83e0027c14a6091f632ab6}\label{class_projet___t3_1_1uc_perso_a505627c37f83e0027c14a6091f632ab6}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!valeurActuelleHisto@{valeurActuelleHisto}}
+\index{valeurActuelleHisto@{valeurActuelleHisto}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{valeurActuelleHisto}{valeurActuelleHisto}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Perso.\+valeur\+Actuelle\+Histo\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+valeur de la Track\+Bar d\textquotesingle{}histoire 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_perso_ab958547833cdec2601d6a54f77c656c4}\label{class_projet___t3_1_1uc_perso_ab958547833cdec2601d6a54f77c656c4}} 
+\index{Projet\_T3.ucPerso@{Projet\_T3.ucPerso}!valeurActuelleMath@{valeurActuelleMath}}
+\index{valeurActuelleMath@{valeurActuelleMath}!Projet\_T3.ucPerso@{Projet\_T3.ucPerso}}
+\doxysubsubsection{\texorpdfstring{valeurActuelleMath}{valeurActuelleMath}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Perso.\+valeur\+Actuelle\+Math\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+valeur de la Track\+Bar des maths 
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Projet T3/\mbox{\hyperlink{uc_perso-_d_e_s_k_t_o_p-_o344_t11_8cs}{uc\+Perso-\/\+D\+E\+S\+K\+T\+O\+P-\/\+O344\+T11.\+cs}}\item 
+Projet T3/\mbox{\hyperlink{uc_perso_8cs}{uc\+Perso.\+cs}}\item 
+Projet T3/\mbox{\hyperlink{uc_perso_8_designer_8cs}{uc\+Perso.\+Designer.\+cs}}\end{DoxyCompactItemize}

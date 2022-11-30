@@ -1,0 +1,154 @@
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Form1.cs
+Form1_Load 2
+Form1_Load 0
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Form1.Designer.cs
+Dispose 1
+Dispose 0
+InitializeComponent 4
+InitializeComponent 0
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\frmPerso.cs
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\frmPerso.Designer.cs
+Dispose 1
+Dispose 0
+InitializeComponent 4
+InitializeComponent 0
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\frmTuto.cs
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\frmTuto.Designer.cs
+Dispose 1
+Dispose 0
+InitializeComponent 13
+InitializeComponent 0
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Program.cs
+Main 2
+Main 0
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Properties\AssemblyInfo.cs
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Properties\Resources.Designer.cs
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucBulletin.cs
+Btn_quitter_Click 2
+Btn_quitter_Click 0
+Btn_menu_Click 2
+Btn_menu_Click 0
+Btn_continue_Click 2
+Btn_continue_Click 0
+note 7
+note 15
+remplirBulletin 39
+remplirBulletin 0
+ajoutScore 2
+ajoutScore 0
+chargementDsLocal 4
+chargementDsLocal 0
+Button1_Click 2
+Button1_Click 0
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucBulletin.Designer.cs
+Dispose 1
+Dispose 0
+InitializeComponent 139
+InitializeComponent 78
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucEtape.cs
+btnPrec_Click 2
+btnPrec_Click 0
+btnSuivant_Click 2
+btnSuivant_Click 15
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucEtape.Designer.cs
+Dispose 1
+Dispose 0
+InitializeComponent 15
+InitializeComponent 15
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucPartie.cs
+btnParticipe_Click 1
+btnParticipe_Click 0
+faireAction 2
+faireAction 0
+majMerite 2
+majMerite 0
+majCompetence 2
+majCompetence 0
+calculeMerite 4
+calculeMerite 0
+calculeCompetence 5
+calculeCompetence 0
+enabledBouton 1
+enabledBouton 0
+chargementDsLocal 5
+chargementDsLocal 15
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucPartie.Designer.cs
+Dispose 1
+Dispose 0
+InitializeComponent 57
+InitializeComponent 46
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucMenu.cs
+btn_tuto_Click 2
+btn_tuto_Click 0
+btn_quitter_Click 2
+btn_quitter_Click 0
+pnl_facile_Click 2
+pnl_facile_Click 0
+tbx_pseudo_KeyPress 4
+tbx_pseudo_KeyPress 0
+Tbx_pseudo_Click 2
+Tbx_pseudo_Click 0
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucMenu.Designer.cs
+Dispose 2
+Dispose 0
+InitializeComponent 43
+InitializeComponent 31
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucPerso.cs
+viderCours 2
+viderCours 0
+majCompetence 2
+majCompetence 0
+btn_continue_Click 3
+btn_continue_Click 0
+chargementDsLocal 5
+chargementDsLocal 0
+TbMath_ValueChanged 1
+TbMath_ValueChanged 0
+Btn_quitter_Click 2
+Btn_quitter_Click 0
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucPerso.Designer.cs
+Dispose 1
+Dispose 0
+InitializeComponent 33
+InitializeComponent 31
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucScore.cs
+remplirScore 1
+remplirScore 0
+chargementDsLocal 7
+chargementDsLocal 0
+Btn_menu_Click 2
+Btn_menu_Click 0
+Btn_continue_Click 2
+Btn_continue_Click 0
+Btn_quitter_Click 1
+Btn_quitter_Click 15
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucScore.Designer.cs
+Dispose 1
+Dispose 0
+InitializeComponent 12
+InitializeComponent 15
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Properties\Settings.Designer.cs
+
+C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+

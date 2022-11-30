@@ -1,0 +1,6 @@
+projectKey=projetT3_3
+serverUrl=https://sonar.iutrs.unistra.fr
+serverVersion=8.3.0.34182
+dashboardUrl=https://sonar.iutrs.unistra.fr/dashboard?id=projetT3_3
+ceTaskId=AXZOq07eOdZU6nD4Ml7H
+ceTaskUrl=https://sonar.iutrs.unistra.fr/api/ce/task?id=AXZOq07eOdZU6nD4Ml7H

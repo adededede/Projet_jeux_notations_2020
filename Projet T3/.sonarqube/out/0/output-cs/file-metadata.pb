@@ -1,0 +1,24 @@
+N
+EC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Form1.csutf-8Y
+NC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Form1.Designer.csutf-8Q
+HC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\frmPerso.csutf-8\
+QC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\frmPerso.Designer.csutf-8P
+GC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\frmTuto.csutf-8[
+PC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\frmTuto.Designer.csutf-8P
+GC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Program.csutf-8`
+WC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Properties\AssemblyInfo.csutf-8h
+]C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Properties\Resources.Designer.csutf-8S
+JC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucBulletin.csutf-8^
+SC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucBulletin.Designer.csutf-8P
+GC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucEtape.csutf-8[
+PC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucEtape.Designer.csutf-8Q
+HC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucPartie.csutf-8\
+QC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucPartie.Designer.csutf-8O
+FC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucMenu.csutf-8Z
+OC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucMenu.Designer.csutf-8P
+GC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucPerso.csutf-8[
+PC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucPerso.Designer.csutf-8P
+GC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucScore.csutf-8[
+PC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\ucScore.Designer.csutf-8g
+\C:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\Properties\Settings.Designer.csutf-8„
+yC:\Users\fanny\OneDrive\cours\INFO\S3\T3\Projet T3\Projet T3\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8

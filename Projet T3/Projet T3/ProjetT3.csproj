@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E5516C0-7F5D-4A0A-84D4-24527CB08273}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projet_T3</RootNamespace>
+    <AssemblyName>Projet T3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPerso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPerso.Designer.cs">
+      <DependentUpon>frmPerso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTuto.Designer.cs">
+      <DependentUpon>frmTuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ucBulletin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucBulletin.Designer.cs">
+      <DependentUpon>ucBulletin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucEtape.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucEtape.Designer.cs">
+      <DependentUpon>ucEtape.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPartie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPartie.Designer.cs">
+      <DependentUpon>ucPartie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucMenu.Designer.cs">
+      <DependentUpon>ucMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPerso.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPerso.Designer.cs">
+      <DependentUpon>ucPerso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucScore.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucScore.Designer.cs">
+      <DependentUpon>ucScore.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPerso.resx">
+      <DependentUpon>frmPerso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTuto.resx">
+      <DependentUpon>frmTuto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucBulletin.resx">
+      <DependentUpon>ucBulletin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucEtape.resx">
+      <DependentUpon>ucEtape.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPartie.resx">
+      <DependentUpon>ucPartie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucMenu.resx">
+      <DependentUpon>ucMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPerso.resx">
+      <DependentUpon>ucPerso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucScore.resx">
+      <DependentUpon>ucScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Form1.datasource" />
+    <None Include="Properties\DataSources\Menu.datasource" />
+    <None Include="Properties\DataSources\Program.datasource" />
+    <None Include="Properties\DataSources\Projet_T3.Properties.Resources.datasource" />
+    <None Include="Properties\DataSources\Projet_T3.Properties.Settings.datasource" />
+    <None Include="Properties\DataSources\ucPartie.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nom du jeu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eleve 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eleve3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eleve 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton commencer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bouton tuto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton quitter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\difficile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\facile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moyen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Merry Tocratick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton participer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton dormir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton travailler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton bavarder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton dormir 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zen Omax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eli Tiste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulletin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton_continuer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bonton_scores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tableau_d_scores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fleche_droite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fleche_gauche.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Votre moral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Votre moral1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tuto_Bulletin.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tuto_Caractéristiques.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tuto_Game.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tuto_Menu.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tuto_Scores.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\travailler_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bouton_participer_off.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

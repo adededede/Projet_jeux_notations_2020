@@ -1,0 +1,299 @@
+\hypertarget{class_projet___t3_1_1uc_score}{}\doxysection{Référence de la classe Projet\+\_\+\+T3.\+uc\+Score}
+\label{class_projet___t3_1_1uc_score}\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+
+
+classe du user\+Control Score, gère l\textquotesingle{}affichage des 5 meilleurs scores dans la difficulté choisie  
+
+
+Graphe d\textquotesingle{}héritage de Projet\+\_\+\+T3.\+uc\+Score\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_projet___t3_1_1uc_score}
+\end{center}
+\end{figure}
+\doxysubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_projet___t3_1_1uc_score_a9c91384ed3ceff5ec3cccc0bd54d98e5}{uc\+Score}} (int diff, string surnom, int jour)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_a4f5af4da77a7c6e700da7790d5432647}{remplir\+Score}} ()
+\begin{DoxyCompactList}\small\item\em permet de remplir le tableau des scores \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_projet___t3_1_1uc_score_a9c91384ed3ceff5ec3cccc0bd54d98e5}{uc\+Score}} (int diff, string surnom, int jour)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_a7131f8c3adf2de4acdb705fa7f485b93}{remplir\+Score}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonctions membres protégées}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_projet___t3_1_1uc_score_a769471dc880ba008977f40e65e096059}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Nettoyage des ressources utilisées. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_ab91c7f982826d5dc080739bf8745994e}{chargement\+Ds\+Local}} ()
+\begin{DoxyCompactList}\small\item\em permet de remplir le Ds\+Local \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_ac73230e0765f25061eedc8bf59e634b2}{Btn\+\_\+menu\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_aeec8372acef217db375cb9341f51c205}{Btn\+\_\+continue\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_aa5e97e1536032ebdde8380697aff24f7}{Btn\+\_\+quitter\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_a36ee0d6bd92e044deea910d7c82840f0}{chargement\+Ds\+Local}} ()
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_ac73230e0765f25061eedc8bf59e634b2}{Btn\+\_\+menu\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_aeec8372acef217db375cb9341f51c205}{Btn\+\_\+continue\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_aa5e97e1536032ebdde8380697aff24f7}{Btn\+\_\+quitter\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_score_a358fd94ab03efb77702f03e9bb613001}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Méthode requise pour la prise en charge du concepteur -\/ ne modifiez pas le contenu de cette méthode avec l\textquotesingle{}éditeur de code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_score_a5d7431b304fc8541f91b5a1b48411887}{difficulte}}
+\begin{DoxyCompactList}\small\item\em difficulté choisie par le joueur \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_projet___t3_1_1uc_score_a4d3b7e3a89426ba2b6d10af8dcab65aa}{pseudo}}
+\begin{DoxyCompactList}\small\item\em pseudo choisi par le joueur \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_score_a467e1f67b8e4b5616e3805dd1aafcdc8}{num\+Jour}}
+\begin{DoxyCompactList}\small\item\em numéro du jour de cours \end{DoxyCompactList}\item 
+Ole\+Db\+Connection \mbox{\hyperlink{class_projet___t3_1_1uc_score_a210e7f1e0c7bb286e1fd45eddaaf3fe1}{connex}} = new Ole\+Db\+Connection()
+\begin{DoxyCompactList}\small\item\em connexion à la base de données \end{DoxyCompactList}\item 
+Data\+Set \mbox{\hyperlink{class_projet___t3_1_1uc_score_a63f3017ce9325f6318ade24cd443c6ae}{ds\+Local}} = new Data\+Set()
+\begin{DoxyCompactList}\small\item\em data\+Set où on copie la base de données pour travailler en déconnecté \end{DoxyCompactList}\item 
+System.\+Component\+Model.\+I\+Container \mbox{\hyperlink{class_projet___t3_1_1uc_score_a120de4aa9131f32453bc2d9fa1c5117b}{components}} = null
+\begin{DoxyCompactList}\small\item\em Variable nécessaire au concepteur. \end{DoxyCompactList}\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_score_a426bf3598f7445cd4ca346f5c3baa5bf}{btn\+\_\+quitter}}
+\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_score_acf74eabbeea88b0231d3b5a7b6242336}{btn\+\_\+continue}}
+\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_score_a6abf5c845a85649d81a5e69fd80e7970}{btn\+\_\+menu}}
+\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_score_aba173487b8c48e8aed2c3b09d8f1596a}{pcb\+Scores}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+classe du user\+Control Score, gère l\textquotesingle{}affichage des 5 meilleurs scores dans la difficulté choisie 
+
+\doxysubsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a9c91384ed3ceff5ec3cccc0bd54d98e5}\label{class_projet___t3_1_1uc_score_a9c91384ed3ceff5ec3cccc0bd54d98e5}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!ucScore@{ucScore}}
+\index{ucScore@{ucScore}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{ucScore()}{ucScore()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Projet\+\_\+\+T3.\+uc\+Score.\+uc\+Score (\begin{DoxyParamCaption}\item[{int}]{diff,  }\item[{string}]{surnom,  }\item[{int}]{jour }\end{DoxyParamCaption})}
+
+Constructeur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\texttt{ in}}  & {\em diff} & \+: diffculté choisie par le joueur \\
+\hline
+\mbox{\texttt{ in}}  & {\em surnom} & \+: pseudo choisi par le joueur \\
+\hline
+\mbox{\texttt{ in}}  & {\em jour} & \+: numéro du jour de cours \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a9c91384ed3ceff5ec3cccc0bd54d98e5}\label{class_projet___t3_1_1uc_score_a9c91384ed3ceff5ec3cccc0bd54d98e5}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!ucScore@{ucScore}}
+\index{ucScore@{ucScore}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{ucScore()}{ucScore()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Projet\+\_\+\+T3.\+uc\+Score.\+uc\+Score (\begin{DoxyParamCaption}\item[{int}]{diff,  }\item[{string}]{surnom,  }\item[{int}]{jour }\end{DoxyParamCaption})}
+
+Constructeur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\texttt{ in}}  & {\em diff} & \+: diffculté choisie par le joueur \\
+\hline
+\mbox{\texttt{ in}}  & {\em surnom} & \+: pseudo choisi par le joueur \\
+\hline
+\mbox{\texttt{ in}}  & {\em jour} & \+: numéro du jour de cours \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_aeec8372acef217db375cb9341f51c205}\label{class_projet___t3_1_1uc_score_aeec8372acef217db375cb9341f51c205}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!Btn\_continue\_Click@{Btn\_continue\_Click}}
+\index{Btn\_continue\_Click@{Btn\_continue\_Click}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{Btn\_continue\_Click()}{Btn\_continue\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+Btn\+\_\+continue\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_aeec8372acef217db375cb9341f51c205}\label{class_projet___t3_1_1uc_score_aeec8372acef217db375cb9341f51c205}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!Btn\_continue\_Click@{Btn\_continue\_Click}}
+\index{Btn\_continue\_Click@{Btn\_continue\_Click}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{Btn\_continue\_Click()}{Btn\_continue\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+Btn\+\_\+continue\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_ac73230e0765f25061eedc8bf59e634b2}\label{class_projet___t3_1_1uc_score_ac73230e0765f25061eedc8bf59e634b2}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!Btn\_menu\_Click@{Btn\_menu\_Click}}
+\index{Btn\_menu\_Click@{Btn\_menu\_Click}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{Btn\_menu\_Click()}{Btn\_menu\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+Btn\+\_\+menu\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_ac73230e0765f25061eedc8bf59e634b2}\label{class_projet___t3_1_1uc_score_ac73230e0765f25061eedc8bf59e634b2}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!Btn\_menu\_Click@{Btn\_menu\_Click}}
+\index{Btn\_menu\_Click@{Btn\_menu\_Click}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{Btn\_menu\_Click()}{Btn\_menu\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+Btn\+\_\+menu\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_aa5e97e1536032ebdde8380697aff24f7}\label{class_projet___t3_1_1uc_score_aa5e97e1536032ebdde8380697aff24f7}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!Btn\_quitter\_Click@{Btn\_quitter\_Click}}
+\index{Btn\_quitter\_Click@{Btn\_quitter\_Click}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{Btn\_quitter\_Click()}{Btn\_quitter\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+Btn\+\_\+quitter\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_aa5e97e1536032ebdde8380697aff24f7}\label{class_projet___t3_1_1uc_score_aa5e97e1536032ebdde8380697aff24f7}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!Btn\_quitter\_Click@{Btn\_quitter\_Click}}
+\index{Btn\_quitter\_Click@{Btn\_quitter\_Click}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{Btn\_quitter\_Click()}{Btn\_quitter\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+Btn\+\_\+quitter\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_ab91c7f982826d5dc080739bf8745994e}\label{class_projet___t3_1_1uc_score_ab91c7f982826d5dc080739bf8745994e}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!chargementDsLocal@{chargementDsLocal}}
+\index{chargementDsLocal@{chargementDsLocal}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{chargementDsLocal()}{chargementDsLocal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+chargement\+Ds\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+permet de remplir le Ds\+Local 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a36ee0d6bd92e044deea910d7c82840f0}\label{class_projet___t3_1_1uc_score_a36ee0d6bd92e044deea910d7c82840f0}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!chargementDsLocal@{chargementDsLocal}}
+\index{chargementDsLocal@{chargementDsLocal}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{chargementDsLocal()}{chargementDsLocal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+chargement\+Ds\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a769471dc880ba008977f40e65e096059}\label{class_projet___t3_1_1uc_score_a769471dc880ba008977f40e65e096059}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily override void Projet\+\_\+\+T3.\+uc\+Score.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Nettoyage des ressources utilisées. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em disposing} & true si les ressources managées doivent être supprimées~; sinon, false.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a358fd94ab03efb77702f03e9bb613001}\label{class_projet___t3_1_1uc_score_a358fd94ab03efb77702f03e9bb613001}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Méthode requise pour la prise en charge du concepteur -\/ ne modifiez pas le contenu de cette méthode avec l\textquotesingle{}éditeur de code. 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a4f5af4da77a7c6e700da7790d5432647}\label{class_projet___t3_1_1uc_score_a4f5af4da77a7c6e700da7790d5432647}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!remplirScore@{remplirScore}}
+\index{remplirScore@{remplirScore}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{remplirScore()}{remplirScore()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+remplir\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+permet de remplir le tableau des scores 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a7131f8c3adf2de4acdb705fa7f485b93}\label{class_projet___t3_1_1uc_score_a7131f8c3adf2de4acdb705fa7f485b93}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!remplirScore@{remplirScore}}
+\index{remplirScore@{remplirScore}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{remplirScore()}{remplirScore()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Score.\+remplir\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Documentation des données membres}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_acf74eabbeea88b0231d3b5a7b6242336}\label{class_projet___t3_1_1uc_score_acf74eabbeea88b0231d3b5a7b6242336}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!btn\_continue@{btn\_continue}}
+\index{btn\_continue@{btn\_continue}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{btn\_continue}{btn\_continue}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Score.\+btn\+\_\+continue\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a6abf5c845a85649d81a5e69fd80e7970}\label{class_projet___t3_1_1uc_score_a6abf5c845a85649d81a5e69fd80e7970}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!btn\_menu@{btn\_menu}}
+\index{btn\_menu@{btn\_menu}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{btn\_menu}{btn\_menu}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Score.\+btn\+\_\+menu\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a426bf3598f7445cd4ca346f5c3baa5bf}\label{class_projet___t3_1_1uc_score_a426bf3598f7445cd4ca346f5c3baa5bf}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!btn\_quitter@{btn\_quitter}}
+\index{btn\_quitter@{btn\_quitter}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{btn\_quitter}{btn\_quitter}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Score.\+btn\+\_\+quitter\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a120de4aa9131f32453bc2d9fa1c5117b}\label{class_projet___t3_1_1uc_score_a120de4aa9131f32453bc2d9fa1c5117b}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!components@{components}}
+\index{components@{components}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily System.\+Component\+Model.\+I\+Container Projet\+\_\+\+T3.\+uc\+Score.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable nécessaire au concepteur. 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a210e7f1e0c7bb286e1fd45eddaaf3fe1}\label{class_projet___t3_1_1uc_score_a210e7f1e0c7bb286e1fd45eddaaf3fe1}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!connex@{connex}}
+\index{connex@{connex}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{connex}{connex}}
+{\footnotesize\ttfamily Ole\+Db\+Connection Projet\+\_\+\+T3.\+uc\+Score.\+connex = new Ole\+Db\+Connection()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+connexion à la base de données 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a5d7431b304fc8541f91b5a1b48411887}\label{class_projet___t3_1_1uc_score_a5d7431b304fc8541f91b5a1b48411887}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!difficulte@{difficulte}}
+\index{difficulte@{difficulte}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{difficulte}{difficulte}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Score.\+difficulte\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+difficulté choisie par le joueur 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a63f3017ce9325f6318ade24cd443c6ae}\label{class_projet___t3_1_1uc_score_a63f3017ce9325f6318ade24cd443c6ae}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!dsLocal@{dsLocal}}
+\index{dsLocal@{dsLocal}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{dsLocal}{dsLocal}}
+{\footnotesize\ttfamily Data\+Set Projet\+\_\+\+T3.\+uc\+Score.\+ds\+Local = new Data\+Set()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+data\+Set où on copie la base de données pour travailler en déconnecté 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a467e1f67b8e4b5616e3805dd1aafcdc8}\label{class_projet___t3_1_1uc_score_a467e1f67b8e4b5616e3805dd1aafcdc8}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!numJour@{numJour}}
+\index{numJour@{numJour}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{numJour}{numJour}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Score.\+num\+Jour\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+numéro du jour de cours 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_aba173487b8c48e8aed2c3b09d8f1596a}\label{class_projet___t3_1_1uc_score_aba173487b8c48e8aed2c3b09d8f1596a}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!pcbScores@{pcbScores}}
+\index{pcbScores@{pcbScores}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{pcbScores}{pcbScores}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Score.\+pcb\+Scores\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_score_a4d3b7e3a89426ba2b6d10af8dcab65aa}\label{class_projet___t3_1_1uc_score_a4d3b7e3a89426ba2b6d10af8dcab65aa}} 
+\index{Projet\_T3.ucScore@{Projet\_T3.ucScore}!pseudo@{pseudo}}
+\index{pseudo@{pseudo}!Projet\_T3.ucScore@{Projet\_T3.ucScore}}
+\doxysubsubsection{\texorpdfstring{pseudo}{pseudo}}
+{\footnotesize\ttfamily string Projet\+\_\+\+T3.\+uc\+Score.\+pseudo\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+pseudo choisi par le joueur 
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Projet T3/\mbox{\hyperlink{uc_score-_d_e_s_k_t_o_p-_o344_t11_8cs}{uc\+Score-\/\+D\+E\+S\+K\+T\+O\+P-\/\+O344\+T11.\+cs}}\item 
+Projet T3/\mbox{\hyperlink{uc_score_8cs}{uc\+Score.\+cs}}\item 
+Projet T3/\mbox{\hyperlink{uc_score_8_designer_8cs}{uc\+Score.\+Designer.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,531 @@
+\hypertarget{class_projet___t3_1_1uc_bulletin}{}\doxysection{Référence de la classe Projet\+\_\+\+T3.\+uc\+Bulletin}
+\label{class_projet___t3_1_1uc_bulletin}\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+
+
+Classe du user\+Control Bulletin, affiche le bulletin du joueur.  
+
+
+Graphe d\textquotesingle{}héritage de Projet\+\_\+\+T3.\+uc\+Bulletin\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_projet___t3_1_1uc_bulletin}
+\end{center}
+\end{figure}
+\doxysubsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_ae894b001ac8f50aec329f8b489188fcf}{uc\+Bulletin}} (int diff, int jour, string pseu)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a78c71c1459c62cff0287d2290558a20b}{ajout\+Score}} ()
+\begin{DoxyCompactList}\small\item\em ajoute le score du joueur à la table des scores \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_ae894b001ac8f50aec329f8b489188fcf}{uc\+Bulletin}} (int diff, int jour, string pseu)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a2be925546bf1cee325fe3d0d7a4b328a}{ajout\+Score}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Fonctions membres protégées}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a3fcb07259ee7ade21d19a6bccf635761}{Dispose}} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Nettoyage des ressources utilisées. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a3e25ed31477f5cef916bfd6b5e83a480}{Btn\+\_\+quitter\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a830852a7dc12f1e032994a4bb56fdd79}{Btn\+\_\+menu\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_aebe41188e057d453cefc39a69d578f23}{Btn\+\_\+continue\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+double \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_ad393a6a5d0d06fe37b01dbbe543c075b}{note}} (int id\+Prof)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a37c2e27159061a8eb3310a1e17e69b29}{remplir\+Bulletin}} ()
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_ae050c9e6eaa1fabf52d9a3f0c7b600cb}{chargement\+Ds\+Local}} () Provider=Microsoft.\+Jet.\+O\+L\+E\+D\+B.\+4.\+0;Data Source=..\textbackslash{}D\+B\+Jeu.\+mdb\char`\"{}
+\begin{DoxyCompactList}\small\item\em charge la base de données en local \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a83ee72c197af63782a43f96712fe7576}{Button1\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a3e25ed31477f5cef916bfd6b5e83a480}{Btn\+\_\+quitter\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a830852a7dc12f1e032994a4bb56fdd79}{Btn\+\_\+menu\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_aebe41188e057d453cefc39a69d578f23}{Btn\+\_\+continue\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+double \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_ad393a6a5d0d06fe37b01dbbe543c075b}{note}} (int id\+Prof)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a37c2e27159061a8eb3310a1e17e69b29}{remplir\+Bulletin}} ()
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_ae5617ebdcc9a825336cdb0e17e251ad4}{chargement\+Ds\+Local}} ()
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a83ee72c197af63782a43f96712fe7576}{Button1\+\_\+\+Click}} (object sender, Event\+Args e)
+\item 
+void \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a3391fb6227b5c352ef0451ad6e0e3497}{Initialize\+Component}} ()
+\begin{DoxyCompactList}\small\item\em Méthode requise pour la prise en charge du concepteur -\/ ne modifiez pas le contenu de cette méthode avec l\textquotesingle{}éditeur de code. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+Ole\+Db\+Connection \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_adf149a08a8788207b97c3cd3c045ea2f}{connex}} = new Ole\+Db\+Connection()
+\begin{DoxyCompactList}\small\item\em Connexion pour la base de données. \end{DoxyCompactList}\item 
+Data\+Set \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a0ba31672a22d0529eedafd5967482159}{ds\+Local}} = new Data\+Set()
+\begin{DoxyCompactList}\small\item\em Data\+Set où on charge la base de données pour travailler en déconnecté \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a6693ec9b47127abab42c5e0783a49896}{difficulte}}
+\begin{DoxyCompactList}\small\item\em difficulté choisie par le joueur \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a7ba12a06ff8f89bb88ee168dcf85e5df}{pseudo}}
+\begin{DoxyCompactList}\small\item\em pseudo choisi par le joueur \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a480b3e26d985abe2f4ce1b1a3255bcff}{num\+Jour}}
+\begin{DoxyCompactList}\small\item\em numéro du jour \end{DoxyCompactList}\item 
+System.\+Component\+Model.\+I\+Container \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a9f1101cae71e9733f430deecf69ee05c}{components}} = null
+\begin{DoxyCompactList}\small\item\em Variable nécessaire au concepteur. \end{DoxyCompactList}\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a35da9ea48af6f1974ca7ca2e5928ef9a}{btn\+\_\+menu}}
+\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_aa1312282c489da1814556494e3d2144b}{btn\+\_\+quitter}}
+\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a738b896fb838de1d9fc74c585e7f1d01}{btn\+\_\+continue}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a0a4cf13b7b5e78f61c81d3547f97000f}{lbl\+\_\+pseudo}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a5ad1cd5ec2e6f8e7db6e24b7945d0d6f}{lbl\+Note\+Merito}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_aaabfc589d43d8b6d822879de5c30233c}{lbl\+Note\+Elli}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_ac74c99b664e77dd6f9fbf5d3a3d2d02e}{lbl\+Appr\+Elli}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_aed04b3d7be4de1d61a0a5dc325b024a6}{lbl\+Note\+Normal}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a7c5d7a9281b9902fee1a8f5777d65ed7}{lbl\+Appr\+Normal}}
+\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_ab11fc0e83ee7e201cd5cce65b5bb3fba}{pcb\+Ellitiste}}
+\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a3fd2cf0e02e18ba76d1ffaff04e335e2}{pcb\+Merito}}
+\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a9bd38726df0f22ba50ce4a2717a38519}{pcb\+Normal}}
+\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a5eb59388a1ba0e1abd58f923cce4f7a7}{pcb\+Logo}}
+\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a7f63b123c8db5f0cd7546bd2e2118c41}{pcb\+\_\+perso}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a15f23beb5b86389de6cd051fa22ca630}{lbl\+Moyenne\+Text}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a182e450406981e979a3af76edb87010d}{lbl\+Remarque}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_afdb951599b4c11ea255594342420e77e}{lbl\+Note}}
+\item 
+System.\+Windows.\+Forms.\+Picture\+Box \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a1204b362ba8141fd0ca5e76fe9f3bd69}{pcb\+Bulletin}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a708c79a6459a01d83d20057e7b57d1cb}{lbl\+Appr\+Merito}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a831cd3a78ed381d918caaaaf5d4e369a}{lbl\+Prof\+Merito}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a352f79ce819b895c0f8bc69d761d9b71}{lbl\+Prof\+Elli}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_af3bf91983ef65867577cca23ced2a5bd}{lbl\+Prof\+Zen}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a8e991c47cd85b638510d485ff3c368e0}{lbl\+Matiere\+Merito}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a830f2453b9695042832d9061f56171d9}{lbl\+Matiere\+Elli}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_af1278159210104e3b201938625a93fa8}{lbl\+Matiere\+Zen}}
+\item 
+System.\+Windows.\+Forms.\+Label \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_a74666620d4e52d721d5d9f608e71a426}{lbl\+Note\+General}}
+\item 
+System.\+Windows.\+Forms.\+Button \mbox{\hyperlink{class_projet___t3_1_1uc_bulletin_afb3ccd0ca913af37a0f8675849b9641f}{btn\+Score}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Description détaillée}
+Classe du user\+Control Bulletin, affiche le bulletin du joueur. 
+
+\doxysubsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_ae894b001ac8f50aec329f8b489188fcf}\label{class_projet___t3_1_1uc_bulletin_ae894b001ac8f50aec329f8b489188fcf}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!ucBulletin@{ucBulletin}}
+\index{ucBulletin@{ucBulletin}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{ucBulletin()}{ucBulletin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Projet\+\_\+\+T3.\+uc\+Bulletin.\+uc\+Bulletin (\begin{DoxyParamCaption}\item[{int}]{diff,  }\item[{int}]{jour,  }\item[{string}]{pseu }\end{DoxyParamCaption})}
+
+Constructeur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\texttt{ in}}  & {\em diff} & \+: difficulté que le joueur choisie \\
+\hline
+\mbox{\texttt{ in}}  & {\em jour} & \+: numéro du jour de cours \\
+\hline
+\mbox{\texttt{ in}}  & {\em pseu} & \+: pseudo du joueur \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_ae894b001ac8f50aec329f8b489188fcf}\label{class_projet___t3_1_1uc_bulletin_ae894b001ac8f50aec329f8b489188fcf}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!ucBulletin@{ucBulletin}}
+\index{ucBulletin@{ucBulletin}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{ucBulletin()}{ucBulletin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Projet\+\_\+\+T3.\+uc\+Bulletin.\+uc\+Bulletin (\begin{DoxyParamCaption}\item[{int}]{diff,  }\item[{int}]{jour,  }\item[{string}]{pseu }\end{DoxyParamCaption})}
+
+Constructeur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\texttt{ in}}  & {\em diff} & \+: difficulté que le joueur choisie \\
+\hline
+\mbox{\texttt{ in}}  & {\em jour} & \+: numéro du jour de cours \\
+\hline
+\mbox{\texttt{ in}}  & {\em pseu} & \+: pseudo du joueur \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a78c71c1459c62cff0287d2290558a20b}\label{class_projet___t3_1_1uc_bulletin_a78c71c1459c62cff0287d2290558a20b}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!ajoutScore@{ajoutScore}}
+\index{ajoutScore@{ajoutScore}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{ajoutScore()}{ajoutScore()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+ajout\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+ajoute le score du joueur à la table des scores 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a2be925546bf1cee325fe3d0d7a4b328a}\label{class_projet___t3_1_1uc_bulletin_a2be925546bf1cee325fe3d0d7a4b328a}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!ajoutScore@{ajoutScore}}
+\index{ajoutScore@{ajoutScore}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{ajoutScore()}{ajoutScore()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+ajout\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_aebe41188e057d453cefc39a69d578f23}\label{class_projet___t3_1_1uc_bulletin_aebe41188e057d453cefc39a69d578f23}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Btn\_continue\_Click@{Btn\_continue\_Click}}
+\index{Btn\_continue\_Click@{Btn\_continue\_Click}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Btn\_continue\_Click()}{Btn\_continue\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Btn\+\_\+continue\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_aebe41188e057d453cefc39a69d578f23}\label{class_projet___t3_1_1uc_bulletin_aebe41188e057d453cefc39a69d578f23}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Btn\_continue\_Click@{Btn\_continue\_Click}}
+\index{Btn\_continue\_Click@{Btn\_continue\_Click}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Btn\_continue\_Click()}{Btn\_continue\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Btn\+\_\+continue\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a830852a7dc12f1e032994a4bb56fdd79}\label{class_projet___t3_1_1uc_bulletin_a830852a7dc12f1e032994a4bb56fdd79}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Btn\_menu\_Click@{Btn\_menu\_Click}}
+\index{Btn\_menu\_Click@{Btn\_menu\_Click}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Btn\_menu\_Click()}{Btn\_menu\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Btn\+\_\+menu\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a830852a7dc12f1e032994a4bb56fdd79}\label{class_projet___t3_1_1uc_bulletin_a830852a7dc12f1e032994a4bb56fdd79}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Btn\_menu\_Click@{Btn\_menu\_Click}}
+\index{Btn\_menu\_Click@{Btn\_menu\_Click}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Btn\_menu\_Click()}{Btn\_menu\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Btn\+\_\+menu\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a3e25ed31477f5cef916bfd6b5e83a480}\label{class_projet___t3_1_1uc_bulletin_a3e25ed31477f5cef916bfd6b5e83a480}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Btn\_quitter\_Click@{Btn\_quitter\_Click}}
+\index{Btn\_quitter\_Click@{Btn\_quitter\_Click}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Btn\_quitter\_Click()}{Btn\_quitter\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Btn\+\_\+quitter\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a3e25ed31477f5cef916bfd6b5e83a480}\label{class_projet___t3_1_1uc_bulletin_a3e25ed31477f5cef916bfd6b5e83a480}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Btn\_quitter\_Click@{Btn\_quitter\_Click}}
+\index{Btn\_quitter\_Click@{Btn\_quitter\_Click}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Btn\_quitter\_Click()}{Btn\_quitter\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Btn\+\_\+quitter\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a83ee72c197af63782a43f96712fe7576}\label{class_projet___t3_1_1uc_bulletin_a83ee72c197af63782a43f96712fe7576}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Button1\_Click@{Button1\_Click}}
+\index{Button1\_Click@{Button1\_Click}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Button1\_Click()}{Button1\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Button1\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a83ee72c197af63782a43f96712fe7576}\label{class_projet___t3_1_1uc_bulletin_a83ee72c197af63782a43f96712fe7576}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Button1\_Click@{Button1\_Click}}
+\index{Button1\_Click@{Button1\_Click}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Button1\_Click()}{Button1\_Click()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Button1\+\_\+\+Click (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_ae050c9e6eaa1fabf52d9a3f0c7b600cb}\label{class_projet___t3_1_1uc_bulletin_ae050c9e6eaa1fabf52d9a3f0c7b600cb}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!chargementDsLocal@{chargementDsLocal}}
+\index{chargementDsLocal@{chargementDsLocal}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{chargementDsLocal()}{chargementDsLocal()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+chargement\+Ds\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) Provider=Microsoft.\+Jet.\+O\+L\+E\+D\+B.\+4.\+0;Data Source=..\textbackslash{}D\+B\+Jeu.\+mdb\char`\"{}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+charge la base de données en local 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_ae5617ebdcc9a825336cdb0e17e251ad4}\label{class_projet___t3_1_1uc_bulletin_ae5617ebdcc9a825336cdb0e17e251ad4}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!chargementDsLocal@{chargementDsLocal}}
+\index{chargementDsLocal@{chargementDsLocal}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{chargementDsLocal()}{chargementDsLocal()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+chargement\+Ds\+Local (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a3fcb07259ee7ade21d19a6bccf635761}\label{class_projet___t3_1_1uc_bulletin_a3fcb07259ee7ade21d19a6bccf635761}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{Dispose()}{Dispose()}}
+{\footnotesize\ttfamily override void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Dispose (\begin{DoxyParamCaption}\item[{bool}]{disposing }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Nettoyage des ressources utilisées. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em disposing} & true si les ressources managées doivent être supprimées~; sinon, false.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a3391fb6227b5c352ef0451ad6e0e3497}\label{class_projet___t3_1_1uc_bulletin_a3391fb6227b5c352ef0451ad6e0e3497}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!InitializeComponent@{InitializeComponent}}
+\index{InitializeComponent@{InitializeComponent}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{InitializeComponent()}{InitializeComponent()}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+Initialize\+Component (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Méthode requise pour la prise en charge du concepteur -\/ ne modifiez pas le contenu de cette méthode avec l\textquotesingle{}éditeur de code. 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_ad393a6a5d0d06fe37b01dbbe543c075b}\label{class_projet___t3_1_1uc_bulletin_ad393a6a5d0d06fe37b01dbbe543c075b}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!note@{note}}
+\index{note@{note}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{note()}{note()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily double Projet\+\_\+\+T3.\+uc\+Bulletin.\+note (\begin{DoxyParamCaption}\item[{int}]{id\+Prof }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_ad393a6a5d0d06fe37b01dbbe543c075b}\label{class_projet___t3_1_1uc_bulletin_ad393a6a5d0d06fe37b01dbbe543c075b}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!note@{note}}
+\index{note@{note}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{note()}{note()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily double Projet\+\_\+\+T3.\+uc\+Bulletin.\+note (\begin{DoxyParamCaption}\item[{int}]{id\+Prof }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a37c2e27159061a8eb3310a1e17e69b29}\label{class_projet___t3_1_1uc_bulletin_a37c2e27159061a8eb3310a1e17e69b29}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!remplirBulletin@{remplirBulletin}}
+\index{remplirBulletin@{remplirBulletin}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{remplirBulletin()}{remplirBulletin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+remplir\+Bulletin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a37c2e27159061a8eb3310a1e17e69b29}\label{class_projet___t3_1_1uc_bulletin_a37c2e27159061a8eb3310a1e17e69b29}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!remplirBulletin@{remplirBulletin}}
+\index{remplirBulletin@{remplirBulletin}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{remplirBulletin()}{remplirBulletin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Projet\+\_\+\+T3.\+uc\+Bulletin.\+remplir\+Bulletin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\doxysubsection{Documentation des données membres}
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a738b896fb838de1d9fc74c585e7f1d01}\label{class_projet___t3_1_1uc_bulletin_a738b896fb838de1d9fc74c585e7f1d01}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!btn\_continue@{btn\_continue}}
+\index{btn\_continue@{btn\_continue}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{btn\_continue}{btn\_continue}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Bulletin.\+btn\+\_\+continue\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a35da9ea48af6f1974ca7ca2e5928ef9a}\label{class_projet___t3_1_1uc_bulletin_a35da9ea48af6f1974ca7ca2e5928ef9a}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!btn\_menu@{btn\_menu}}
+\index{btn\_menu@{btn\_menu}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{btn\_menu}{btn\_menu}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Bulletin.\+btn\+\_\+menu\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_aa1312282c489da1814556494e3d2144b}\label{class_projet___t3_1_1uc_bulletin_aa1312282c489da1814556494e3d2144b}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!btn\_quitter@{btn\_quitter}}
+\index{btn\_quitter@{btn\_quitter}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{btn\_quitter}{btn\_quitter}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Bulletin.\+btn\+\_\+quitter\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_afb3ccd0ca913af37a0f8675849b9641f}\label{class_projet___t3_1_1uc_bulletin_afb3ccd0ca913af37a0f8675849b9641f}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!btnScore@{btnScore}}
+\index{btnScore@{btnScore}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{btnScore}{btnScore}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Button Projet\+\_\+\+T3.\+uc\+Bulletin.\+btn\+Score\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a9f1101cae71e9733f430deecf69ee05c}\label{class_projet___t3_1_1uc_bulletin_a9f1101cae71e9733f430deecf69ee05c}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!components@{components}}
+\index{components@{components}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{components}{components}}
+{\footnotesize\ttfamily System.\+Component\+Model.\+I\+Container Projet\+\_\+\+T3.\+uc\+Bulletin.\+components = null\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Variable nécessaire au concepteur. 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_adf149a08a8788207b97c3cd3c045ea2f}\label{class_projet___t3_1_1uc_bulletin_adf149a08a8788207b97c3cd3c045ea2f}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!connex@{connex}}
+\index{connex@{connex}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{connex}{connex}}
+{\footnotesize\ttfamily Ole\+Db\+Connection Projet\+\_\+\+T3.\+uc\+Bulletin.\+connex = new Ole\+Db\+Connection()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Connexion pour la base de données. 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a6693ec9b47127abab42c5e0783a49896}\label{class_projet___t3_1_1uc_bulletin_a6693ec9b47127abab42c5e0783a49896}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!difficulte@{difficulte}}
+\index{difficulte@{difficulte}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{difficulte}{difficulte}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Bulletin.\+difficulte\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+difficulté choisie par le joueur 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a0ba31672a22d0529eedafd5967482159}\label{class_projet___t3_1_1uc_bulletin_a0ba31672a22d0529eedafd5967482159}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!dsLocal@{dsLocal}}
+\index{dsLocal@{dsLocal}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{dsLocal}{dsLocal}}
+{\footnotesize\ttfamily Data\+Set Projet\+\_\+\+T3.\+uc\+Bulletin.\+ds\+Local = new Data\+Set()\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Data\+Set où on charge la base de données pour travailler en déconnecté 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a0a4cf13b7b5e78f61c81d3547f97000f}\label{class_projet___t3_1_1uc_bulletin_a0a4cf13b7b5e78f61c81d3547f97000f}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lbl\_pseudo@{lbl\_pseudo}}
+\index{lbl\_pseudo@{lbl\_pseudo}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lbl\_pseudo}{lbl\_pseudo}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+\_\+pseudo\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_ac74c99b664e77dd6f9fbf5d3a3d2d02e}\label{class_projet___t3_1_1uc_bulletin_ac74c99b664e77dd6f9fbf5d3a3d2d02e}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblApprElli@{lblApprElli}}
+\index{lblApprElli@{lblApprElli}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblApprElli}{lblApprElli}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Appr\+Elli\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a708c79a6459a01d83d20057e7b57d1cb}\label{class_projet___t3_1_1uc_bulletin_a708c79a6459a01d83d20057e7b57d1cb}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblApprMerito@{lblApprMerito}}
+\index{lblApprMerito@{lblApprMerito}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblApprMerito}{lblApprMerito}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Appr\+Merito\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a7c5d7a9281b9902fee1a8f5777d65ed7}\label{class_projet___t3_1_1uc_bulletin_a7c5d7a9281b9902fee1a8f5777d65ed7}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblApprNormal@{lblApprNormal}}
+\index{lblApprNormal@{lblApprNormal}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblApprNormal}{lblApprNormal}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Appr\+Normal\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a830f2453b9695042832d9061f56171d9}\label{class_projet___t3_1_1uc_bulletin_a830f2453b9695042832d9061f56171d9}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblMatiereElli@{lblMatiereElli}}
+\index{lblMatiereElli@{lblMatiereElli}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblMatiereElli}{lblMatiereElli}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Matiere\+Elli\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a8e991c47cd85b638510d485ff3c368e0}\label{class_projet___t3_1_1uc_bulletin_a8e991c47cd85b638510d485ff3c368e0}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblMatiereMerito@{lblMatiereMerito}}
+\index{lblMatiereMerito@{lblMatiereMerito}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblMatiereMerito}{lblMatiereMerito}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Matiere\+Merito\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_af1278159210104e3b201938625a93fa8}\label{class_projet___t3_1_1uc_bulletin_af1278159210104e3b201938625a93fa8}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblMatiereZen@{lblMatiereZen}}
+\index{lblMatiereZen@{lblMatiereZen}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblMatiereZen}{lblMatiereZen}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Matiere\+Zen\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a15f23beb5b86389de6cd051fa22ca630}\label{class_projet___t3_1_1uc_bulletin_a15f23beb5b86389de6cd051fa22ca630}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblMoyenneText@{lblMoyenneText}}
+\index{lblMoyenneText@{lblMoyenneText}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblMoyenneText}{lblMoyenneText}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Moyenne\+Text\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_afdb951599b4c11ea255594342420e77e}\label{class_projet___t3_1_1uc_bulletin_afdb951599b4c11ea255594342420e77e}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblNote@{lblNote}}
+\index{lblNote@{lblNote}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblNote}{lblNote}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Note\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_aaabfc589d43d8b6d822879de5c30233c}\label{class_projet___t3_1_1uc_bulletin_aaabfc589d43d8b6d822879de5c30233c}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblNoteElli@{lblNoteElli}}
+\index{lblNoteElli@{lblNoteElli}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblNoteElli}{lblNoteElli}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Note\+Elli\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a74666620d4e52d721d5d9f608e71a426}\label{class_projet___t3_1_1uc_bulletin_a74666620d4e52d721d5d9f608e71a426}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblNoteGeneral@{lblNoteGeneral}}
+\index{lblNoteGeneral@{lblNoteGeneral}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblNoteGeneral}{lblNoteGeneral}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Note\+General\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a5ad1cd5ec2e6f8e7db6e24b7945d0d6f}\label{class_projet___t3_1_1uc_bulletin_a5ad1cd5ec2e6f8e7db6e24b7945d0d6f}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblNoteMerito@{lblNoteMerito}}
+\index{lblNoteMerito@{lblNoteMerito}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblNoteMerito}{lblNoteMerito}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Note\+Merito\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_aed04b3d7be4de1d61a0a5dc325b024a6}\label{class_projet___t3_1_1uc_bulletin_aed04b3d7be4de1d61a0a5dc325b024a6}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblNoteNormal@{lblNoteNormal}}
+\index{lblNoteNormal@{lblNoteNormal}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblNoteNormal}{lblNoteNormal}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Note\+Normal\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a352f79ce819b895c0f8bc69d761d9b71}\label{class_projet___t3_1_1uc_bulletin_a352f79ce819b895c0f8bc69d761d9b71}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblProfElli@{lblProfElli}}
+\index{lblProfElli@{lblProfElli}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblProfElli}{lblProfElli}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Prof\+Elli\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a831cd3a78ed381d918caaaaf5d4e369a}\label{class_projet___t3_1_1uc_bulletin_a831cd3a78ed381d918caaaaf5d4e369a}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblProfMerito@{lblProfMerito}}
+\index{lblProfMerito@{lblProfMerito}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblProfMerito}{lblProfMerito}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Prof\+Merito\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_af3bf91983ef65867577cca23ced2a5bd}\label{class_projet___t3_1_1uc_bulletin_af3bf91983ef65867577cca23ced2a5bd}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblProfZen@{lblProfZen}}
+\index{lblProfZen@{lblProfZen}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblProfZen}{lblProfZen}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Prof\+Zen\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a182e450406981e979a3af76edb87010d}\label{class_projet___t3_1_1uc_bulletin_a182e450406981e979a3af76edb87010d}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!lblRemarque@{lblRemarque}}
+\index{lblRemarque@{lblRemarque}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{lblRemarque}{lblRemarque}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Label Projet\+\_\+\+T3.\+uc\+Bulletin.\+lbl\+Remarque\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a480b3e26d985abe2f4ce1b1a3255bcff}\label{class_projet___t3_1_1uc_bulletin_a480b3e26d985abe2f4ce1b1a3255bcff}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!numJour@{numJour}}
+\index{numJour@{numJour}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{numJour}{numJour}}
+{\footnotesize\ttfamily int Projet\+\_\+\+T3.\+uc\+Bulletin.\+num\+Jour\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+numéro du jour 
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a7f63b123c8db5f0cd7546bd2e2118c41}\label{class_projet___t3_1_1uc_bulletin_a7f63b123c8db5f0cd7546bd2e2118c41}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!pcb\_perso@{pcb\_perso}}
+\index{pcb\_perso@{pcb\_perso}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{pcb\_perso}{pcb\_perso}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Bulletin.\+pcb\+\_\+perso\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a1204b362ba8141fd0ca5e76fe9f3bd69}\label{class_projet___t3_1_1uc_bulletin_a1204b362ba8141fd0ca5e76fe9f3bd69}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!pcbBulletin@{pcbBulletin}}
+\index{pcbBulletin@{pcbBulletin}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{pcbBulletin}{pcbBulletin}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Bulletin.\+pcb\+Bulletin\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_ab11fc0e83ee7e201cd5cce65b5bb3fba}\label{class_projet___t3_1_1uc_bulletin_ab11fc0e83ee7e201cd5cce65b5bb3fba}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!pcbEllitiste@{pcbEllitiste}}
+\index{pcbEllitiste@{pcbEllitiste}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{pcbEllitiste}{pcbEllitiste}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Bulletin.\+pcb\+Ellitiste\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a5eb59388a1ba0e1abd58f923cce4f7a7}\label{class_projet___t3_1_1uc_bulletin_a5eb59388a1ba0e1abd58f923cce4f7a7}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!pcbLogo@{pcbLogo}}
+\index{pcbLogo@{pcbLogo}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{pcbLogo}{pcbLogo}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Bulletin.\+pcb\+Logo\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a3fd2cf0e02e18ba76d1ffaff04e335e2}\label{class_projet___t3_1_1uc_bulletin_a3fd2cf0e02e18ba76d1ffaff04e335e2}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!pcbMerito@{pcbMerito}}
+\index{pcbMerito@{pcbMerito}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{pcbMerito}{pcbMerito}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Bulletin.\+pcb\+Merito\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a9bd38726df0f22ba50ce4a2717a38519}\label{class_projet___t3_1_1uc_bulletin_a9bd38726df0f22ba50ce4a2717a38519}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!pcbNormal@{pcbNormal}}
+\index{pcbNormal@{pcbNormal}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{pcbNormal}{pcbNormal}}
+{\footnotesize\ttfamily System.\+Windows.\+Forms.\+Picture\+Box Projet\+\_\+\+T3.\+uc\+Bulletin.\+pcb\+Normal\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{class_projet___t3_1_1uc_bulletin_a7ba12a06ff8f89bb88ee168dcf85e5df}\label{class_projet___t3_1_1uc_bulletin_a7ba12a06ff8f89bb88ee168dcf85e5df}} 
+\index{Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}!pseudo@{pseudo}}
+\index{pseudo@{pseudo}!Projet\_T3.ucBulletin@{Projet\_T3.ucBulletin}}
+\doxysubsubsection{\texorpdfstring{pseudo}{pseudo}}
+{\footnotesize\ttfamily string Projet\+\_\+\+T3.\+uc\+Bulletin.\+pseudo\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+pseudo choisi par le joueur 
+
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+Projet T3/\mbox{\hyperlink{uc_bulletin-_d_e_s_k_t_o_p-_o344_t11_8cs}{uc\+Bulletin-\/\+D\+E\+S\+K\+T\+O\+P-\/\+O344\+T11.\+cs}}\item 
+Projet T3/\mbox{\hyperlink{uc_bulletin_8cs}{uc\+Bulletin.\+cs}}\item 
+Projet T3/\mbox{\hyperlink{uc_bulletin_8_designer_8cs}{uc\+Bulletin.\+Designer.\+cs}}\end{DoxyCompactItemize}
